@@ -1,4 +1,4 @@
-package ex_04_RestAssured_HTTP_Methods;
+package ex_04_RestAssured_HTTP_Methods.GET;
 
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
