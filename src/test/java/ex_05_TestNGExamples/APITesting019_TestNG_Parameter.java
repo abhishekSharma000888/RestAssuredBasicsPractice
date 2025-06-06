@@ -14,6 +14,7 @@ public class APITesting019_TestNG_Parameter {
         if(value.equalsIgnoreCase("firefox")){
             System.out.println("Start the firefox");
         }
+        
         if(value.equalsIgnoreCase("chrome")){
             System.out.println("Start the chrome!");
         }
