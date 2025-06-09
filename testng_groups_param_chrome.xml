@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="RestAssuredBasicsPractice">
+
+        <parameter name="browser" value="chrome"></parameter>
+        <groups>
+            <run>
+                <include name="reg">
+                </include>
+            </run>
+        </groups>
+        <classes><class name="ex_05_TestNGExamples.APITesting019_TestNG_Parameter">
+    <methods><include name="test_GET_POSITIVE_TC1"/>
+        <include name="test_GET_NEGATIVE_TC2"/><include name="test_GET_NEGATIVE_TC3"/>
+    </methods></class></classes>
+    </test></suite>
